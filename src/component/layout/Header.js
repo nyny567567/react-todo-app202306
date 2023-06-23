@@ -1,7 +1,7 @@
 import React from 'react';
 import {AppBar, Toolbar, Grid, 
     Typography, Button} from "@mui/material";
-import './Header.css';
+import './header.css';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
