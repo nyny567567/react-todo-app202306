@@ -22,7 +22,7 @@ export const AuthContextProvider = props => {
         if(localStorage.getItem('isLoggedIn') === '1') {
             setIsLoggedIn(true);
             setUserName(localStorage.getItem('LOGIN_USERNAME'));
-        }
+        } 
     }, []);
 
 
@@ -67,6 +67,5 @@ export const AuthContextProvider = props => {
 };
 
 export default AuthContext;
-
 
 
